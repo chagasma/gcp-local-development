@@ -1,0 +1,17 @@
+[
+  {
+    "name": "test-bucket",
+    "notification": {
+      "topics": [
+        {
+          "name": "file-uploaded",
+          "subscriptions": [
+            {
+              "name": "process-file"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
